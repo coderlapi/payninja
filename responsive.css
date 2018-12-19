@@ -1,0 +1,554 @@
+
+@media (min-width: 768px){}
+@media (min-width: 992px){
+	.container {
+	    max-width: 960px;
+	}
+}
+@media (min-width: 1200px){}
+@media (min-width: 1280px){}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	
+}
+
+@media (max-width: 991px){
+	.owl-carousel .owl-nav button{
+		cursor: pointer !important;
+	}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	.site_banner{
+		padding-top: 40px;
+	}
+	.caption_content{
+		min-height: 400px;
+		padding-top: 5px;
+	}
+	.caption_content h1{
+		font-size: 48px;
+		margin-bottom: 30px;
+		line-height: 1.2;
+	}
+	.caption_content h1 span{
+		font-size: 68%;
+	}
+
+	.banner_phone{
+		max-width: 315px;
+	}
+
+	.sbc_form label{
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	.sec_title{
+		margin-bottom: 30px;
+	}
+	.sec_title h2{
+		font-size: 36px;
+		margin-bottom: 10px;
+		font-weight: 800;
+	}
+
+	.fml_title h3{
+		font-size: 19px;
+		font-weight: 800;
+	}
+
+	.fml_title .fml_name,
+	.fml_desc p, 
+	.fml_desc{
+		font-size: 16px;
+		font-weight: 800;
+	}
+
+	.fml_title,
+	.fml_desc p{
+		margin-bottom: 20px;
+	}
+
+	.family_item{
+		max-width: 290px;
+	}
+	.family_item .fml_picture{
+		max-width: 170px;
+	}
+
+	.pn_category_sec{
+		padding-bottom: 120px;
+	}
+	.cat_content p{
+		margin-bottom: 10px;
+		font-size: 16px;
+		font-weight: 800;
+	}
+	
+	.cat_list .cat_item a{
+		font-size: 16px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-weight: 800;
+	}
+	
+	.info_phone{
+		max-width: 290px;
+	}
+	.info_content{
+		min-height: 370px;
+	}
+	.info_desc{
+		width: 62%;
+		margin: 0 0 50px;
+	}
+	.info_ftr_list ul li{
+		font-size: 15px;
+		line-height: 1.4;
+		margin-bottom: 6px;
+		font-weight: 800;
+	}
+
+	.info_desc h3{
+		font-size: 19px;
+		font-weight: 800;
+	}
+
+	.token_content{
+		padding: 20px 0 0;
+	}
+	.pn_token_list ul li{
+		font-size: 15px;
+		padding-top: 6px;
+		margin-bottom: 15px;
+		min-height: 32px;
+		font-weight: 800;
+	}
+
+	.pn_token_list ul li:before{
+		height: 32px;
+		width: 32px;
+		left: 8px;
+		top: 0;
+	}
+	.token_form{
+		max-width: 450px;
+	}
+	.token_form .sbc_form label{
+		font-size: 15px;
+		font-weight: 800;
+	}
+
+	.sec_title p,
+	.footer_item ul li a{
+		font-size: 16px;
+		font-weight: 800;
+	}
+
+	.footer_social li, 
+	.footer_social ul li{
+		padding-left: 30px;
+	}
+	.footer_social li span, 
+	.footer_social ul li span{
+		font-size: 16px;
+	}
+	.copyright p{
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 767px){
+
+	.header{
+		padding: 30px 0;
+	}
+	.header .logo{
+		margin-left: 30px;
+		max-width: 200px;
+	}
+
+	.site_banner{
+		padding-top: 40px;
+	}
+
+	.info_phone,
+	.banner_phone{
+		position: relative;
+		left: auto;
+		bottom: auto;
+		right: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 380px;
+		width: 100%;
+	}
+
+	.family_item{
+		max-width: 350px;
+	}
+	.family_item.item_right,
+	.family_item.item_left{
+		float: none;
+	}
+
+	.info_content,
+	.cat_list,
+	.copyright,
+	.footer_content,
+	.token_content,
+	.caption_content{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.caption_content{
+		min-height: 200px;
+		padding-bottom: 30px;
+	}
+	.caption_content h1{
+		font-size: 50px;
+		margin-bottom: 20px;
+		line-height: 1.2;
+	}
+	.caption_content h1 span{
+		font-size: 70%;
+	}
+
+	.token_form .sbc_form label,
+	.sbc_form label{
+		height: 50px;
+		padding: 0;
+		vertical-align: middle;
+	}
+	.token_form .sbc_form label:before{
+		background: url(images/form_arrow_white_sm.png) no-repeat top center;
+		background-size: 100%;
+		left: -25px;
+		top: 24px;
+		height: 44px;
+		width: 20px;
+	}
+	.caption_content .sbc_form label:before{
+		background: url(images/form_arrow_black_sm.png) no-repeat top center;
+		background-size: 100%;
+		left: -25px;
+		top: 24px;
+		height: 44px;
+		width: 20px;
+	}
+
+	.family_item .fml_picture{
+		max-width: 200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.cat_content p,
+	.fml_desc p,
+	.fml_title{
+		margin-bottom: 20px;
+	}
+
+	.sec_title h2{
+		font-size: 34px;
+	}
+
+	.cat_list{
+		padding: 0;
+	}
+
+	.cat_list .cat_item{
+		width: 100%;
+		margin-left: 0;
+	}
+	.cat_list .cat_item a{
+		padding: 18px 5px;
+		font-weight: 800;
+	}
+
+	.payninja_info .sec_title h2{
+		padding: 0;
+	}
+	.sec_title h2 span{
+		display: block;
+	}
+	.payninja_info .sec_title h2 .emoj{
+		position: relative;
+		display: block;
+		top: auto;
+		right: auto;
+		text-align: center;
+		margin-top: 10px;
+		width: 100%;
+	}
+	.payninja_info .sec_title h2 .emoj img{
+		width: 50px;
+		display: inline-block;
+	}
+
+	.info_desc{
+		width: 100%;
+		max-width: 400px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+
+	.pn_token_list ul li{
+		font-size: 15px;
+		padding-top: 6px;
+		margin-bottom: 15px;
+		min-height: 32px;
+		padding-left: 45px;
+	}
+
+	.pn_token_list ul li:before{
+		height: 32px;
+		width: 32px;
+		left: 0;
+		top: 0;
+	}
+	.token_form .sbc_form label{
+		font-size: 15px;
+	}
+
+	.token_form{
+		padding-left: 40px;
+	}
+
+	.sec_title{
+		margin-bottom: 30px;
+	}
+	.footer_item{
+		margin-bottom: 50px;
+	}
+	.copyright{
+		padding-top: 0;
+	}
+
+	.footer_item ul li{
+		margin-bottom: 10px;
+	}
+	.footer_social ul li{
+		padding-left: 26px;
+	}
+	.footer_social li span, 
+	.footer_social ul li span{
+		font-size: 15px;
+		top: 1px;
+	}
+
+	.sbc_form label{
+		font-size: 18px;
+	}
+
+	.sbc_form label span{
+		display: none;
+	}
+
+	.img_mobile{
+		display: block !important;
+	}
+	.img_desktop{
+		display: none !important;
+	}
+
+	.info_phone, .banner_phone{
+		padding: 0 15px;
+	}
+
+	.sec_title p,
+	.footer_item ul li a,
+	.info_ftr_list ul li,
+	.cat_list .cat_item a,
+	.cat_content p,
+	.fml_desc,
+	.fml_desc p,
+	.fml_title .fml_name{
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	.fml_title h3,
+	.info_desc h3{
+		font-size: 20px;
+	}
+
+	.pn_token_sec{
+		padding-top: 45px;
+	}
+
+	.token_content{
+		padding-top: 10px;
+		padding-bottom: 0;
+	}
+
+	.pn_category_sec{
+		padding-bottom: 150px;
+	}
+	.payninja_info{
+		padding-top: 60px;
+	}
+	.copyright p{
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 575px){
+
+	.caption_content h1{
+		font-size: 42px;
+	}
+
+	.input_inline{
+		padding: 0;
+	}
+	.input_inline input[type="text"], 
+	.input_inline input[type="email"], 
+	.input_inline .input{
+		border-radius: 4px;
+	}
+
+	.input_inline input[type="submit"], 
+	.input_inline button, 
+	.input_inline .button{
+		border-radius: 4px;
+		position: relative;
+		width: 100%;
+	}
+
+	.fml_title h3{
+		font-size: 20px;
+	}
+
+	.token_form{
+		padding-left: 0;
+	}
+
+	.family_item{
+		max-width: 330px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.info_phone, 
+	.banner_phone{
+		max-width: 330px;
+	}
+	.caption_content{
+		max-width: 360px;
+		margin: 0 auto;
+		display: block;
+	}
+}
+
+@media (max-width: 390px){
+
+	.info_content,
+	.cat_list,
+	.copyright,
+	.footer_content,
+	.token_content,
+	.caption_content{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.header .logo{
+		margin-left: 15px;
+	}
+
+	.site_banner{
+		padding-top: 40px;
+	}
+
+	.caption_content h1{
+		font-size: 44px;
+		letter-spacing: -3px;
+		line-height: 1.2;
+		margin-bottom: 4px;
+	}
+	.caption_content h1 span{
+		letter-spacing: normal;
+		line-height: 1.5;
+		font-size: 70%;
+	}
+
+	.sec_title h2{
+		font-size: 32px;
+		font-weight: 800;
+		margin-bottom: 5px;
+	}
+
+	.family_item .fml_picture{
+		max-width: 210px;
+	}
+
+	.sbc_form label {
+	    font-weight: 700;
+	    font-size: 18px;
+	}
+
+	.fml_title .fml_name{
+		font-size: 18px;
+		font-weight: 800;
+	}
+	.fml_title h3 {
+	    font-size: 20px;
+	    font-weight: 800;
+	    margin: 0;
+	}
+	.cat_content p, 
+	.fml_desc p, 
+	.fml_title {
+	    margin-bottom: 25px;
+	}
+
+	.sec_title p,
+	.footer_item ul li a,
+	.fml_desc,
+	.fml_desc p{
+		font-size: 15px;
+	}
+
+	.info_ftr_list ul li{
+		line-height: 1.8;
+		font-weight: 800;
+		font-size: 15px;
+	}
+	.info_desc h3{
+		font-size: 18px;
+		line-height: 1.8;
+		font-weight: 800;
+	}
+
+	.token_form .sbc_form label, 
+	.pn_token_list ul li{
+		font-size: 15px;
+		font-weight: 600;
+	}
+
+	.cat_list .cat_item a,
+	.cat_content p{
+		font-size: 15px;
+		font-weight: 800;
+	}
+}
+
+@media (max-width: 320px){
+	.caption_content h1{
+		font-size: 40px;
+	}
+	.cat_list .cat_item a, .cat_content p{
+		font-size: 13px;
+	}
+	.sec_title h2{
+		font-size: 28px;
+	}
+	.fml_desc .ans_desc{
+		max-width: 100%;
+	}
+}
